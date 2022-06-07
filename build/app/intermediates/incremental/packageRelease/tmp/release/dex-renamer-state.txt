@@ -1,0 +1,4 @@
+#Mon Jun 06 17:08:24 NPT 2022
+base.0=/Users/sitaramgupta/FlutterProject/semaphore_flutter/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
