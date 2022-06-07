@@ -42,3 +42,12 @@ blocks:
         - name: Run flutter tests
           commands:
             - flutter test test
+promotions:
+  - name: Build App
+    pipeline_file: pipeline_2.yml
+    auto_promote:
+      when: branch = 'master' AND result = 'passed'
+  - name: Deploy to Firebase
+    pipeline_file: pipeline_3.yml
+    auto_promote:
+      when: branch = 'master' AND result = 'passed'
