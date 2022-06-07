@@ -2,7 +2,7 @@
 
 # CI/CD fastlane app distribution
 # Commands available below:
-flutter create semaphore_flutter --org com.companyname
+`flutter create semaphore_flutter --org com.companyname`
 flutter build apk --release
 open build/app/outputs/flutter-apk/
 cd android
