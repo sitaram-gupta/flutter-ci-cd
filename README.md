@@ -2,17 +2,17 @@
 
 # CI/CD fastlane app distribution
 # Commands available below:
-`flutter create semaphore_flutter --org com.companyname`
-flutter build apk --release
-open build/app/outputs/flutter-apk/
-cd android
-fastlane init
-fastlane add_plugin firebase_app_distribution
-firebase login:ci
+flutter create semaphore_flutter --org com.companyname <br/>
+flutter build apk --release <br/>
+open build/app/outputs/flutter-apk/ <br/>
+cd android <br/>
+fastlane init <br/>
+fastlane add_plugin firebase_app_distribution <br/>
+firebase login:ci <br/>
 fastlane deploy
 
 # code and replace to Fasfile
-default_platform(:android)
+```default_platform(:android)
 
 platform :android do
   desc "Deploy to firebase"
@@ -31,3 +31,4 @@ platform :android do
     end
   end
 end
+```
