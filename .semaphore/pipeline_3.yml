@@ -10,6 +10,7 @@ blocks:
       jobs:
         - name: Run Fastlane Deploy
           commands:
+            - flutter build apk --release
             - bundle exec fastlane deploy
       prologue:
         commands:
