@@ -11,7 +11,7 @@ fastlane add_plugin firebase_app_distribution <br/>
 firebase login:ci <br/>
 fastlane deploy
 
-# code and replace to Fasfile
+# code to replace to Fasfile
 ```default_platform(:android)
 
 platform :android do
